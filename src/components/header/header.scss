@@ -5,7 +5,7 @@
   @include flex(center, center);
   img{
     margin-right: 10px;
-    width: 50px;
+    width: 100px;
   }
   		@include mobile {
 			  width: 30px;

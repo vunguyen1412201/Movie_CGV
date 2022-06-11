@@ -1,6 +1,6 @@
 import React,{ useRef, useEffect} from 'react';
 import './header.scss';
-import logo from '../../assets/tmovie.png';
+import logo from '../../assets/cgvlogo.png';
 import {Link, useLocation } from 'react-router-dom';
 const headerNav = [
   {
@@ -40,8 +40,10 @@ const Header = () => {
     <div ref={headerRef} className = "header">
       <div className = "header__wrap container">
         <div className="logo">
+                <Link to="/">
             <img src={logo} alt=""/>
-                <Link to="/">tMovies</Link>
+                  
+                </Link>
 
         </div>
         <ul className="header__nav">
